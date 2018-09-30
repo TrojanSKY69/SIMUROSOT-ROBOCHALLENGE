@@ -1,5 +1,7 @@
 # SIMUROSOT ROBO CHANLLENGE 
-=============
+
+--------
+
 <br>
 This is the 2017 FIRA SIMUROSOT ROBO CHANLLENGE environment<br>
 
