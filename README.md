@@ -5,6 +5,7 @@
 This is the 2017 FIRA SIMUROSOT ROBO CHANLLENGE environment<br>
 
 OS: ubuntu 16.04
+
 ROS: Kinectic
 
 ##### :exclamation:You must not install the OS on a(any) Virtual Machine, otherwise there will be a lot of problems.:exclamation:
