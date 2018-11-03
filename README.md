@@ -17,33 +17,33 @@ Here we copy some of the proceed below:<br>
 
 1. Setup your sources.list
 
-    ```
-    sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
-    ```
+```
+sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main" > /etc/apt/sources.list.d/ros-latest.list'
+```
 2. Setup your keys
-    ```
-    sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
-    ```
+```
+sudo apt-key adv --keyserver hkp://ha.pool.sks-keyservers.net:80 --recv-key 421C365BD9FF1F717815A3895523BAEEB01FA116
+```
 3. Installation
-    ```
-    sudo apt-get update
-    sudo apt-get install ros-kinetic-desktop-full
-    ```
+```
+sudo apt-get update
+sudo apt-get install ros-kinetic-desktop-full
+```
 4. Initialize rosdep
-    ```
-    sudo rosdep init
-    rosdep update
-    ```
+```
+sudo rosdep init
+rosdep update
+```
 5. Environment setup
-    ```
-    echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
-    source ~/.bashrc
-    ```
+```
+echo "source /opt/ros/kinetic/setup.bash" >> ~/.bashrc
+source ~/.bashrc
+```
 
 ## 2. Turtlebot & Gazebo Package
-    ```
-    sudo apt-get install ros-kinetic-turtlebot-gazebo
-    ```
+```
+sudo apt-get install ros-kinetic-turtlebot-gazebo
+```
    
 ## 3. SIMUROSOT-ROBOCHALLENGE
 ### 3.1 Download this project
@@ -51,9 +51,9 @@ Here we copy some of the proceed below:<br>
 In your home directory, Press Ctrl+H to show the hidden directory, then go to gazebo/models sub-directory. Copy the colorbox, models/newbox and models/newfield to this directory.
 
 ### 3.3 Run the program <br>
-    ```
-    python ./start.py 1 1
-    ```
+```
+python ./start.py 1 1
+```
 
 If you see the figure as follow, you are success.
 ![image](https://github.com/zerowind168/SIMUROSOT-ROBOCHALLENGE/blob/master/roboc.png) 
