@@ -2,15 +2,15 @@
 
 --------
 
-<br>
 This is the 2017 FIRA SIMUROSOT ROBO CHANLLENGE environment<br>
 
-OS: ubuntu 16.04<br>
-ROS: Kinectic<br>
+OS: ubuntu 16.04
+ROS: Kinectic
 
 ##### :exclamation:You must not install the OS on a(any) Virtual Machine, otherwise there will be a lot of problems.:exclamation:
 
-## 1. Install the ROS:<br>
+## 1. Install the ROS:
+
 You can go to:  http://wiki.ros.org/kinetic/Installation/Ubuntu
 for how to download the ROS Kinetic version.<br>
 Here we copy some of the proceed below:<br>
@@ -84,13 +84,3 @@ This file define the enviroment which include play field and obstacles. It will 
 
 ## 4.3 More to do
 The given demo is really simple for beginners to start up. You can define more sophisticate function based on "robot.move_cmd" and "robot.turn_cmd" to set. And using "robot.cmd_vel.publish(robot.move_cmd)" to publish you manipulation. Such as simulatanious turn around and moving.
-
-
-
- 
-
-
-
-
-
-
