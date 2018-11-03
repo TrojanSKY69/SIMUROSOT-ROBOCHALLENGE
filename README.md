@@ -71,17 +71,22 @@ If you see the figure as follow, you are success.
 #### 1. start.py
 This is the start-up script. When it is running, it will start all the necessary program. After start, the Turtlebot will act according to what defined in the how_to_run.py script.
 #### 2. how_to_run.py
-This script define how the turtlebot act. There is only one function "Run" in this script, The function has a "robot" parameter, which is an object of class "Robot". In this object, some act are define for manipulate the Turtlebot. The "start.py" script will be called by start-up script, and also tranfer the "robot" object.
+This script define how the turtlebot act. There is only one function `Run` in this script, The function has a `robot` parameter, which is an object of class `Robot`. In this object, some act are define for manipulate the Turtlebot. The `start.py` script will be called by start-up script, and also tranfer the `robot` object.
 
 #### 3. robot.py
-The script define a "Robot" class, which wrap some basic function for the manipulation of turtlebot.<br>
-set_move_speed(met_per_sec)　: Set the speed of turtlebot，dimension is m/s.<br>
-set_turn_speed(deg_per_sec)　: Set the rotate speed of turtlebot, dimension is degree/s.<br>
-go_forward(seconds)　　　　 : Let the turtlebot move for "seconds" seconds at the given speed.<br>
-turn_around(seconds)　　　　: Let the turtlebot turn around for "seconds" seconds at the given rotate speed.<br>
+The script define a `Robot` class, which wrap some basic function for the manipulation of turtlebot.
+
+set_move_speed(met_per_sec)　: Set the speed of turtlebot，dimension is m/s.
+
+set_turn_speed(deg_per_sec)　: Set the rotate speed of turtlebot, dimension is degree/s.
+
+go_forward(seconds)　　　　 : Let the turtlebot move for `seconds` seconds at the given speed.
+
+turn_around(seconds)　　　　: Let the turtlebot turn around for `seconds` seconds at the given rotate speed.
+
 get_image()　　　　　　　　: Get the current image from camera. The image contain the RGB information as a 2D matrix.
 #### 4. world.world
-This file define the enviroment which include play field and obstacles. It will be called by "start.py" script. We have defined some more testing enviroment in the "world" sub-directory. You can use them for testing. 
+This file define the enviroment which include play field and obstacles. It will be called by "start.py" script. We have defined some more testing enviroment in the `world` sub-directory. You can use them for testing. 
 
 ## 4.3 More to do
-The given demo is really simple for beginners to start up. You can define more sophisticate function based on "robot.move_cmd" and "robot.turn_cmd" to set. And using "robot.cmd_vel.publish(robot.move_cmd)" to publish you manipulation. Such as simulatanious turn around and moving.
+The given demo is really simple for beginners to start up. You can define more sophisticate function based on `robot.move_cmd` and `robot.turn_cmd` to set. And using `robot.cmd_vel.publish(robot.move_cmd)` to publish you manipulation. Such as simulatanious turn around and moving.
