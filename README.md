@@ -2,7 +2,7 @@
 
 --------
 
-This is the 2017 FIRA SIMUROSOT ROBO CHANLLENGE environment<br>
+This is the Iran FIRA RoboWorldCup Open 2019 : Simurosot RoboChallenge Simulation Platform
 
 OS: ubuntu 16.04
 
