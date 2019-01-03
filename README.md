@@ -1,3 +1,8 @@
+# Q/A
+Feel free to ask questions
+   autcup.simurosot@gmail.com
+
+
 # SIMUROSOT ROBO CHANLLENGE 
 
 --------
